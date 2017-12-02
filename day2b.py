@@ -1,0 +1,1 @@
+(lambda z, qed: print(sum(qed([int(i) for i in r.split()]) for r in z.split('\n'))))(__import__('sys').stdin.read().strip(), lambda s, q = lambda a, b: a if b == 0 else None: [i for i in [q(*divmod(s[x], s[y])) for x in range(len(s)) for y in range(len(s)) if x != y] if i is not None][0])
